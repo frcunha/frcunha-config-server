@@ -2,6 +2,7 @@ spring:
   application:
     name: frcunha-greeting-serice
     
+# expor endpoints do actuator -> * tudo, poderia ser 'refresh' para atualizar o config server    
 management:
   endpoints:
     web:
@@ -10,6 +11,6 @@ management:
         - '*'
     
 greeting-service:
-  greeting: "Pronto"
+  greeting: "Pronto Fred"
   default-value: "Mondo"    
     
